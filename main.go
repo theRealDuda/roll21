@@ -144,3 +144,9 @@ func deleteCharacterSheet(c echo.Context) error {
 	// Implement logic to delete a character sheet
 	return c.JSON(http.StatusOK, "Character sheet deleted")
 }
+
+//add a function that renders a pdf based on a user's info
+
+//add a function for dice rolls
+//roll(dice)
+//maybe add roll bonuses in a different place or in this function and return the changed roll
